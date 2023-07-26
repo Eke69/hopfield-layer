@@ -3,7 +3,7 @@ import torch.nn as nn
 
 from torch import Tensor
 from torch.nn import Linear, Module, Parameter
-from typing import Optional
+from typing import Optional, Tuple
 
 from .functional import hopfield_core_forward
 
